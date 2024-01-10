@@ -1,0 +1,16 @@
+{
+  "name": "diya015",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc -w"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  }
+}
